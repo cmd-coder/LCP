@@ -12,4 +12,8 @@ class program
 	{
 		return (length1==length2);
 	}
+	static int compare(int length1, int length2)
+	{
+		return length1.CompareTo(length2);
+	}
 }
