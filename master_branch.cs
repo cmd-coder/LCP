@@ -8,4 +8,8 @@ class program
 	{
 		return Math.Sqrt((x1-x2)*(x1-x2)+(y1-y2)*(y1-y2));
 	}
+	static void equality(int length1, int length2)
+	{
+		return (length1==length2);
+	}
 }
