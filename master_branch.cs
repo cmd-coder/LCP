@@ -22,7 +22,9 @@ class program
 
 		if(length==length2)
 			Console.WriteLine("Both the lines are equal in length");
+		else if(length>length2)
+			Console.WriteLine("Line 1 is greater than line 2");
 		else
-			Console.WriteLine("The lines are not equal in length");
+			Console.WriteLine("Line 2 is greater than line 1");
 	}
 }
